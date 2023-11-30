@@ -58,9 +58,7 @@ image
 ## HALF ADDER:
 ![image](https://github.com/YASEEN23014215/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/149365441/b23e3fb2-7bbd-48ee-b4e7-2d862fb31994)
 ## FULL ADDER:
-![image](https://github.com/YASEEN23014215/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/149365441/48758802-7332-47da-a5fe-45497ebe80eb)
-
-
+![image](https://github.com/YASEEN23014215/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/149365441/247629d9-0751-476c-bcb2-604c5e0907af)
 ### TIMING DIAGRAM:
 ## HALF ADDER:
 ![image](https://github.com/YASEEN23014215/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/149365441/9fd943dc-40c5-492d-a11a-2c8513d68845)
