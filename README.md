@@ -1,6 +1,7 @@
-# Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit
-
-# Implementation-of-Half-Adder-and-Full-Adder-circuit
+# NAME: YASEEN.F
+# Reference No: 23014215
+# Exp 02 Implementation of Half Adder and Full Adder circuit
+# Implementation of Half Adder and Full Adder circuit
 ### AIM:
 To design a half adder and full adder circuit and verify its truth table in Quartus using Verilog programming.
 
@@ -22,8 +23,7 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 
  ![image](https://user-images.githubusercontent.com/36288975/163552156-a13e5a56-c638-4110-97d9-8896907c8d25.png)
 
-#### Figure -01 HALF ADDER 
-
+#### Figure -01 HALF ADDER
 
 ![image](https://user-images.githubusercontent.com/36288975/163552057-b3547877-6d07-45b4-b7e0-bcfebfad9e1d.png)
 
@@ -34,21 +34,47 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 Connect the supply (+5V) to the circuit
 Switch ON the main switch
 If the output is 1, then the led glows.
-### 
-Program:
-/*
-Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
-Logic symbol & Truthtable
-RTL realization
 
-### Output:
-### RTL
-### TIMING DIAGRAM
+## Program:
+Half adder:
+module exp3(sum, carry,a,b); 
+input a,b; 
+output sum,carry; 
+xor sum1(sum,a,b); 
+and carry1(carry,a,b); 
+endmodule
+full adder:
+module fulladder(a,b,c,sum,carry);
+input a,b,c;
+output sum,carry;
+xor(sum,a,b,c);
+assign carry=a&b | b&c | a&c;
+endmodule
+RTL realisation:
+Half Adder:
+image
+
+## RTL realization:
+## HALF ADDER:
+![image](https://github.com/YASEEN23014215/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/149365441/b23e3fb2-7bbd-48ee-b4e7-2d862fb31994)
+## FULL ADDER:
+![image](https://github.com/YASEEN23014215/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/149365441/48758802-7332-47da-a5fe-45497ebe80eb)
 
 
-### TRUTH TABLE 
+### TIMING DIAGRAM:
+## HALF ADDER:
+![image](https://github.com/YASEEN23014215/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/149365441/9fd943dc-40c5-492d-a11a-2c8513d68845)
+## FULL ADDER:
+![image](https://github.com/YASEEN23014215/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/149365441/d3bb1374-a642-47fb-ac48-a383208b5e15)
+
+
+
+### TRUTH TABLE:
+## HALF ADDER:
+![image](https://github.com/YASEEN23014215/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/149365441/6a565934-cab9-4921-af22-c08919ef1026)
+## FULL ADDER:
+![image](https://github.com/YASEEN23014215/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/149365441/7d074776-a0d5-4fbf-9bb5-3614fb202e59)
+
+
 
 ### Result:
