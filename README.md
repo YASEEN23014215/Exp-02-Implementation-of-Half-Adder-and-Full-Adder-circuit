@@ -58,6 +58,7 @@ image
 ## HALF ADDER:
 ![image](https://github.com/YASEEN23014215/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/149365441/b23e3fb2-7bbd-48ee-b4e7-2d862fb31994)
 ## FULL ADDER:
+![Uploading image.png…]()
 
 ### TIMING DIAGRAM:
 ## HALF ADDER:
